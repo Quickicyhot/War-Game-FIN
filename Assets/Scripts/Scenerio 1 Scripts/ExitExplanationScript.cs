@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ExitExplanationScript : MonoBehaviour
 {
-    public GameObject exitExplanation;
-    public GameObject enterExplanation;
+   
+    public GameObject greyPanel;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,10 +19,10 @@ public class ExitExplanationScript : MonoBehaviour
     }
     public void ExitExplanation()
     {
-        exitExplanation.SetActive(false);
+        greyPanel.SetActive(false);
     }
     public void EnterExplanation()
     {
-        enterExplanation.SetActive(true);
+        greyPanel.SetActive(true);
     }
 }

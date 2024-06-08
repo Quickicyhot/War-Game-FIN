@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8306118279373019804}
   - component: {fileID: 2099523215177058067}
   m_Layer: 5
-  m_Name: Next
+  m_Name: Restart Txt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65,9 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Next
-
-'
+  m_text: Restart
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -147,9 +145,9 @@ GameObject:
   - component: {fileID: 7546857901041981239}
   - component: {fileID: 1350783738037932408}
   - component: {fileID: 2069358509068789399}
-  - component: {fileID: 4699063084039242036}
+  - component: {fileID: 1618897940147057044}
   m_Layer: 5
-  m_Name: Options next
+  m_Name: Restart Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -213,7 +211,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &4699063084039242036
+--- !u!114 &1618897940147057044
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -222,11 +220,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 3815094441217896287}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee458784b71da464d9bf271d8622850b, type: 3}
+  m_Script: {fileID: 11500000, guid: ace438f447e75fc4591219644f0a88f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  restartButton: {fileID: 8697810176703836666}
+  previousScene: {fileID: 0}
   currentScene: {fileID: 0}
-  nextScene: {fileID: 0}
 --- !u!1 &8697810176703836666
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,9 +347,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4699063084039242036}
-        m_TargetAssemblyTypeName: OptionsNextManager, Assembly-CSharp
-        m_MethodName: NextScene
+      - m_Target: {fileID: 1618897940147057044}
+        m_TargetAssemblyTypeName: RestartButtonManager, Assembly-CSharp
+        m_MethodName: RestartButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
