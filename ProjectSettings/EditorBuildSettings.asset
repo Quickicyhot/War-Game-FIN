@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scenerio 1 Scenes/Scenerio 1 Scene 3.unity
     guid: d468c35c3cf3dce44821ebd0e699d9a2
+  - enabled: 1
+    path: Assets/Scenes/Comming soon screen.unity
+    guid: e42abcd488df2394e934dd9296ac1c54
   m_configObjects: {}

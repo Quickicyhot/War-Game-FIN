@@ -147,6 +147,12 @@ PrefabInstance:
       propertyPath: currentScene
       value: 
       objectReference: {fileID: 1935932429}
+    - target: {fileID: 6673286667047253841, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
+      propertyPath: m_text
+      value: 'Next
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 7546857901041981239, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -259,6 +265,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1569351929}
     m_Modifications:
+    - target: {fileID: 4708181028534193579, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
+      propertyPath: m_text
+      value: The protagonist finds some sandbags to hide behind, providing a momentary
+        respite from the chaos
+      objectReference: {fileID: 0}
     - target: {fileID: 7107036254739006786, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
       propertyPath: m_Name
       value: Scene 7-2
@@ -421,6 +432,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Options Decision
       objectReference: {fileID: 0}
+    - target: {fileID: 3815094441217896287, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4728221057848395139, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: m_text
+      value: Find Cover
+      objectReference: {fileID: 0}
     - target: {fileID: 5066767099770802020, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
       propertyPath: option1
       value: 
@@ -430,9 +449,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 198675893}
     - target: {fileID: 5066767099770802020, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: option1Text
+      value: Dangerous but if you live you save countless lives
+      objectReference: {fileID: 0}
+    - target: {fileID: 5066767099770802020, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: option2Text
+      value: find cover but risky as you could be shot
+      objectReference: {fileID: 0}
+    - target: {fileID: 5066767099770802020, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
       propertyPath: currentScene
       value: 
       objectReference: {fileID: 283151429}
+    - target: {fileID: 5715848308477770484, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: m_text
+      value: 'Charge '
+      objectReference: {fileID: 0}
     - target: {fileID: 7546857901041981239, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -513,6 +544,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8483633741495849298, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8840913800451931862, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 72.854004
@@ -530,6 +565,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1569351929}
     m_Modifications:
+    - target: {fileID: 4708181028534193579, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
+      propertyPath: m_text
+      value: You have survived the war and arrived back home in america. Your family
+        is happy and you are hailed as a hero. But nothing can help you recover from
+        the traumatic experience you had.
+      objectReference: {fileID: 0}
     - target: {fileID: 7107036254739006786, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
       propertyPath: m_Name
       value: End Scene
@@ -688,9 +729,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3771363235922446400, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3815094441217896287, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
       propertyPath: m_Name
       value: Options Decision
+      objectReference: {fileID: 0}
+    - target: {fileID: 4728221057848395139, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: m_text
+      value: Flank the enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5066767099770802020, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
       propertyPath: option1
@@ -701,9 +750,23 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 865144039}
     - target: {fileID: 5066767099770802020, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: option1Text
+      value: Leading a charge can be devastating towards the enemy but if you fail
+        many lives will be lost
+      objectReference: {fileID: 0}
+    - target: {fileID: 5066767099770802020, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: option2Text
+      value: A safer option, but getting caught while flanking could get you captured
+        or killed
+      objectReference: {fileID: 0}
+    - target: {fileID: 5066767099770802020, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
       propertyPath: currentScene
       value: 
       objectReference: {fileID: 198675893}
+    - target: {fileID: 5715848308477770484, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: m_text
+      value: Lead A Charge
+      objectReference: {fileID: 0}
     - target: {fileID: 7546857901041981239, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -784,9 +847,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8483633741495849298, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: m_text
+      value: A Machine gun rests up ahead
+      objectReference: {fileID: 0}
     - target: {fileID: 8840913800451931862, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 72.854004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8867152598919027713, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 66
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -806,6 +877,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1569351929}
     m_Modifications:
+    - target: {fileID: 1779216383817392349, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4708181028534193579, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
+      propertyPath: m_text
+      value: Its D-Day you get deployed to the beaches of Normady
+      objectReference: {fileID: 0}
     - target: {fileID: 7107036254739006786, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
       propertyPath: m_Name
       value: Scene 5
@@ -1056,6 +1135,10 @@ PrefabInstance:
     - target: {fileID: 3815094441217896287, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: m_Name
       value: Options
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179891454457098121, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 85.007996
       objectReference: {fileID: 0}
     - target: {fileID: 4699063084039242036, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: nextScene
@@ -1587,6 +1670,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Options next (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4114282184116590865, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179891454457098121, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 673
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179891454457098121, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 85.007996
+      objectReference: {fileID: 0}
     - target: {fileID: 4699063084039242036, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: nextScene
       value: 
@@ -1701,6 +1796,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Options
       objectReference: {fileID: 0}
+    - target: {fileID: 4179891454457098121, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 85.007996
+      objectReference: {fileID: 0}
     - target: {fileID: 4699063084039242036, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: nextScene
       value: 
@@ -1709,6 +1808,12 @@ PrefabInstance:
       propertyPath: currentScene
       value: 
       objectReference: {fileID: 969716469}
+    - target: {fileID: 6673286667047253841, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
+      propertyPath: m_text
+      value: 'Next
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 7546857901041981239, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1807,6 +1912,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1569351929}
     m_Modifications:
+    - target: {fileID: 4708181028534193579, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
+      propertyPath: m_text
+      value: The letter is a draft for the US army. They're going to send you to
+        the war in Europe. You may never see your family again.
+      objectReference: {fileID: 0}
     - target: {fileID: 5275523699616690221, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
       propertyPath: m_SizeDelta.x
       value: 3467.18
@@ -1942,6 +2052,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Options next
       objectReference: {fileID: 0}
+    - target: {fileID: 4114282184116590865, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179891454457098121, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 670
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179891454457098121, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 85.007996
+      objectReference: {fileID: 0}
     - target: {fileID: 4699063084039242036, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: nextScene
       value: 
@@ -2052,6 +2174,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1569351929}
     m_Modifications:
+    - target: {fileID: 4708181028534193579, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
+      propertyPath: m_text
+      value: Unfortunately you have fallen. Your death will not be in vain.
+      objectReference: {fileID: 0}
     - target: {fileID: 7107036254739006786, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
       propertyPath: m_Name
       value: Fail Scene
@@ -2191,6 +2317,10 @@ PrefabInstance:
       propertyPath: currentScene
       value: 
       objectReference: {fileID: 865144039}
+    - target: {fileID: 6673286667047253841, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
+      propertyPath: m_text
+      value: Next
+      objectReference: {fileID: 0}
     - target: {fileID: 7546857901041981239, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2293,6 +2423,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1569351929}
     m_Modifications:
+    - target: {fileID: 4708181028534193579, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
+      propertyPath: m_text
+      value: You decide to push the enemy as the vanguard
+      objectReference: {fileID: 0}
     - target: {fileID: 7107036254739006786, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
       propertyPath: m_Name
       value: Scene 11 -1
@@ -2664,6 +2798,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1569351929}
     m_Modifications:
+    - target: {fileID: 4708181028534193579, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
+      propertyPath: m_text
+      value: You decide to flank the enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 7107036254739006786, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
       propertyPath: m_Name
       value: Scene 8-2
@@ -2857,6 +2995,10 @@ PrefabInstance:
       propertyPath: currentScene
       value: 
       objectReference: {fileID: 865499080}
+    - target: {fileID: 6673286667047253841, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
+      propertyPath: m_text
+      value: Next
+      objectReference: {fileID: 0}
     - target: {fileID: 7546857901041981239, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3140,13 +3282,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1569351929}
     m_Modifications:
+    - target: {fileID: 4708181028534193579, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
+      propertyPath: m_text
+      value: Your sergeant is giving you a brief explanation on why the war is happening.
+      objectReference: {fileID: 0}
     - target: {fileID: 7107036254739006786, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
       propertyPath: m_Name
       value: Scene 4-2
       objectReference: {fileID: 0}
     - target: {fileID: 7107036254739006786, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7304784928169897845, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
       propertyPath: m_Pivot.x
@@ -3277,6 +3423,10 @@ PrefabInstance:
       propertyPath: currentScene
       value: 
       objectReference: {fileID: 1990653856}
+    - target: {fileID: 6673286667047253841, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
+      propertyPath: m_text
+      value: Next
+      objectReference: {fileID: 0}
     - target: {fileID: 7546857901041981239, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3390,6 +3540,10 @@ PrefabInstance:
       propertyPath: currentScene
       value: 
       objectReference: {fileID: 1207176346}
+    - target: {fileID: 6673286667047253841, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
+      propertyPath: m_text
+      value: Next
+      objectReference: {fileID: 0}
     - target: {fileID: 7546857901041981239, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3502,6 +3656,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1569351929}
     m_Modifications:
+    - target: {fileID: 4708181028534193579, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
+      propertyPath: m_text
+      value: You decide to push the enemy unit
+      objectReference: {fileID: 0}
     - target: {fileID: 7107036254739006786, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
       propertyPath: m_Name
       value: Scene 8-1
@@ -3648,6 +3806,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: BacktoMainmenu, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 6673286667047253841, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
+      propertyPath: m_text
+      value: The End?
+      objectReference: {fileID: 0}
     - target: {fileID: 7546857901041981239, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3750,6 +3912,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1569351929}
     m_Modifications:
+    - target: {fileID: 1260173356455663760, guid: f85ca4d6f24476a4eb2e4f7967169039, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1481178157}
+    - target: {fileID: 1260173356455663760, guid: f85ca4d6f24476a4eb2e4f7967169039, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BackToMainMenuButton
+      objectReference: {fileID: 0}
     - target: {fileID: 5586741692352007151, guid: f85ca4d6f24476a4eb2e4f7967169039, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3851,6 +4021,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1569351929}
     m_Modifications:
+    - target: {fileID: 4708181028534193579, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
+      propertyPath: m_text
+      value: The mail reads from the US goverment
+      objectReference: {fileID: 0}
     - target: {fileID: 5275523699616690221, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
       propertyPath: m_SizeDelta.x
       value: 3638.43
@@ -3988,6 +4162,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Options next
       objectReference: {fileID: 0}
+    - target: {fileID: 4179891454457098121, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 85.007996
+      objectReference: {fileID: 0}
     - target: {fileID: 4699063084039242036, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: nextScene
       value: 
@@ -3996,6 +4174,12 @@ PrefabInstance:
       propertyPath: currentScene
       value: 
       objectReference: {fileID: 471244549}
+    - target: {fileID: 6673286667047253841, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
+      propertyPath: m_text
+      value: 'Next
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 7546857901041981239, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4209,6 +4393,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7546857901041981239, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
   m_PrefabInstance: {fileID: 1345123786}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1390661300 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5821404066851038514, guid: f85ca4d6f24476a4eb2e4f7967169039, type: 3}
+  m_PrefabInstance: {fileID: 1218846877}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1398073329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4220,6 +4409,10 @@ PrefabInstance:
     - target: {fileID: 3815094441217896287, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: m_Name
       value: Options
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179891454457098121, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 85.007996
       objectReference: {fileID: 0}
     - target: {fileID: 4699063084039242036, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: nextScene
@@ -4326,6 +4519,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1569351929}
     m_Modifications:
+    - target: {fileID: 4708181028534193579, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
+      propertyPath: m_text
+      value: Unfortunately the Nazis were expecting you charging up and gunne you
+        down.
+      objectReference: {fileID: 0}
     - target: {fileID: 7107036254739006786, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
       propertyPath: m_Name
       value: Scene 7-1
@@ -4436,6 +4634,51 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7546857901041981239, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
   m_PrefabInstance: {fileID: 1398073329}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1481178156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1481178158}
+  - component: {fileID: 1481178157}
+  m_Layer: 0
+  m_Name: Exit button Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1481178157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481178156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f6c34718b2fb84e997b32d283bf4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backToMainMenuButton: {fileID: 1390661300}
+--- !u!4 &1481178158
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481178156}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.22647, y: -1.2530212, z: 104.62326}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1560903554
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4444,6 +4687,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1569351929}
     m_Modifications:
+    - target: {fileID: 4708181028534193579, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
+      propertyPath: m_text
+      value: You decide to hold a stretegic position allowing your unit to advance
+        safely
+      objectReference: {fileID: 0}
     - target: {fileID: 7107036254739006786, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
       propertyPath: m_Name
       value: Scene 11-2
@@ -4675,6 +4923,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1569351929}
     m_Modifications:
+    - target: {fileID: 4708181028534193579, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
+      propertyPath: m_text
+      value: With the enemy unit nuetralized, your unit decides to formulate a plan
+        for an important battle
+      objectReference: {fileID: 0}
     - target: {fileID: 7107036254739006786, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
       propertyPath: m_Name
       value: Scene 10
@@ -4799,6 +5052,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -41.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1943720890145890537, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3415854280879374228, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -4827,6 +5084,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Options Decision
       objectReference: {fileID: 0}
+    - target: {fileID: 4728221057848395139, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: m_text
+      value: Hold a strategic position
+      objectReference: {fileID: 0}
+    - target: {fileID: 4728221057848395139, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: m_fontSize
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 4728221057848395139, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 33
+      objectReference: {fileID: 0}
     - target: {fileID: 5066767099770802020, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
       propertyPath: option1
       value: 
@@ -4836,9 +5105,31 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 241142057}
     - target: {fileID: 5066767099770802020, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: option1Text
+      value: Suriving this would earn you honor and glory and chances of promotion
+        but very risky
+      objectReference: {fileID: 0}
+    - target: {fileID: 5066767099770802020, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: option2Text
+      value: Holding this strategic position would allow your unit to safely advance
+        without risking a flank
+      objectReference: {fileID: 0}
+    - target: {fileID: 5066767099770802020, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
       propertyPath: currentScene
       value: 
       objectReference: {fileID: 1846142279}
+    - target: {fileID: 5715848308477770484, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: m_text
+      value: Play As Vanguard
+      objectReference: {fileID: 0}
+    - target: {fileID: 5715848308477770484, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: m_fontSize
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 5715848308477770484, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 33
+      objectReference: {fileID: 0}
     - target: {fileID: 7546857901041981239, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4918,6 +5209,10 @@ PrefabInstance:
     - target: {fileID: 7546857901041981239, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8139445638735438318, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8840913800451931862, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -5004,26 +5299,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: Options Decision
       objectReference: {fileID: 0}
+    - target: {fileID: 4728221057848395139, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: m_text
+      value: Run
+      objectReference: {fileID: 0}
     - target: {fileID: 5066767099770802020, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
       propertyPath: option1
       value: 
-      objectReference: {fileID: 1786201693}
+      objectReference: {fileID: 1009573734}
     - target: {fileID: 5066767099770802020, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
       propertyPath: option2
       value: 
-      objectReference: {fileID: 1009573734}
+      objectReference: {fileID: 1786201693}
     - target: {fileID: 5066767099770802020, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
       propertyPath: option1Text
-      value: Test1
+      value: Legally you have to join the army, but if you do you're certain you're
+        going to war.
       objectReference: {fileID: 0}
     - target: {fileID: 5066767099770802020, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
       propertyPath: option2Text
-      value: Test2
+      value: You don't know what'll happen if you dodge the draft, but at least you
+        won't die...
       objectReference: {fileID: 0}
     - target: {fileID: 5066767099770802020, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
       propertyPath: currentScene
       value: 
       objectReference: {fileID: 2009952555}
+    - target: {fileID: 5715848308477770484, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: m_text
+      value: Join the Draft
+      objectReference: {fileID: 0}
     - target: {fileID: 7456314807481891280, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -5108,6 +5413,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8139445638735438318, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483633741495849298, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
+      propertyPath: m_text
+      value: What do you do?
+      objectReference: {fileID: 0}
     - target: {fileID: 8779318626286384470, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -5139,6 +5452,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1569351929}
     m_Modifications:
+    - target: {fileID: 4708181028534193579, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
+      propertyPath: m_text
+      value: Your mom calls you from downstairs
+      objectReference: {fileID: 0}
     - target: {fileID: 5275523699616690221, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
       propertyPath: m_SizeDelta.x
       value: 3467.18
@@ -5285,6 +5602,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1569351929}
     m_Modifications:
+    - target: {fileID: 4708181028534193579, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
+      propertyPath: m_text
+      value: You got arrested and got fined for a large sum of money and sentenced
+        to 5 years in prison. You lived but you live in shame
+      objectReference: {fileID: 0}
     - target: {fileID: 7107036254739006786, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
       propertyPath: m_Name
       value: Scene 4-1
@@ -5501,6 +5823,10 @@ PrefabInstance:
       propertyPath: currentScene
       value: 
       objectReference: {fileID: 1009573734}
+    - target: {fileID: 6673286667047253841, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
+      propertyPath: m_text
+      value: Next
+      objectReference: {fileID: 0}
     - target: {fileID: 7546857901041981239, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -5613,6 +5939,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1569351929}
     m_Modifications:
+    - target: {fileID: 4708181028534193579, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
+      propertyPath: m_text
+      value: Your commander commends you on your valient effort
+      objectReference: {fileID: 0}
     - target: {fileID: 7107036254739006786, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
       propertyPath: m_Name
       value: Scene 9
@@ -5747,6 +6077,10 @@ PrefabInstance:
       propertyPath: currentScene
       value: 
       objectReference: {fileID: 241142057}
+    - target: {fileID: 6673286667047253841, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
+      propertyPath: m_text
+      value: Next
+      objectReference: {fileID: 0}
     - target: {fileID: 7546857901041981239, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -6123,13 +6457,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1569351929}
     m_Modifications:
+    - target: {fileID: 4708181028534193579, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
+      propertyPath: m_text
+      value: A mail arrives at your door
+      objectReference: {fileID: 0}
     - target: {fileID: 7107036254739006786, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
       propertyPath: m_Name
       value: Scene 0
       objectReference: {fileID: 0}
     - target: {fileID: 7107036254739006786, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7304784928169897845, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
       propertyPath: m_Pivot.x
@@ -6236,6 +6574,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Explanation
       objectReference: {fileID: 0}
+    - target: {fileID: 942149900280287393, guid: a3620d0ca3a070d4db2aa523d0b02887, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3014513736236920661, guid: a3620d0ca3a070d4db2aa523d0b02887, type: 3}
       propertyPath: m_LocalPosition.x
       value: -180.93758
@@ -6276,6 +6618,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7042659535559014842, guid: a3620d0ca3a070d4db2aa523d0b02887, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6290,3 +6636,4 @@ SceneRoots:
   - {fileID: 1569351929}
   - {fileID: 736450389}
   - {fileID: 2068772751}
+  - {fileID: 1481178158}
