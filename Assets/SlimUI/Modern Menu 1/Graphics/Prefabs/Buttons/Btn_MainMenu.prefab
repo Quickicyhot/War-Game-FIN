@@ -344,6 +344,7 @@ GameObject:
   - component: {fileID: 5388222474218088325}
   - component: {fileID: 5388172141496654257}
   - component: {fileID: 5429341922959870820}
+  - component: {fileID: 1457474742439622019}
   m_Layer: 5
   m_Name: Btn_MainMenu
   m_TagString: Untagged
@@ -466,6 +467,18 @@ MonoBehaviour:
           m_StringArgument: IntroCinematic
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1457474742439622019}
+        m_TargetAssemblyTypeName: ButtonSound, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &5388172141496654257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -510,3 +523,15 @@ MonoBehaviour:
   themeController: {fileID: 11400000, guid: e00c7d2bc58a2424b8dc09ecdafdb067, type: 2}
   hasImage: 1
   isText: 0
+--- !u!114 &1457474742439622019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5429341922959870843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1723f88fc99187d49a0bd6e9ab26c4f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

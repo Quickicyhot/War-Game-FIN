@@ -20,7 +20,6 @@ public class GlobeGontroller : MonoBehaviour
         transform.rotation = Quaternion.Lerp(transform.rotation, transform.parent.rotation*Quaternion.Euler(levelSelectionManager.currentlevel.globeRotation), rotationspeed* Time.deltaTime);
         Camera.rotation = Quaternion.Lerp(Camera.rotation,Quaternion.Euler(levelSelectionManager.currentlevel.cameraRotation), cameraspeed*Time.deltaTime);
         Camera.position = Vector3.Lerp(Camera.position,levelSelectionManager.currentlevel.cameraPosition, cameraspeed*Time.deltaTime);
-        PersistantData.instance.score += 1;
     }
 
 

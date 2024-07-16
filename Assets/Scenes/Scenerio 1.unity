@@ -981,7 +981,7 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7304784928169897845, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
-      insertIndex: 1
+      insertIndex: 2
       addedObject: {fileID: 332008927}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
@@ -1087,7 +1087,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7546857901041981239, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -13.450013
+      value: -13.450012
       objectReference: {fileID: 0}
     - target: {fileID: 7546857901041981239, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1329,7 +1329,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7546857901041981239, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -13.450013
+      value: -13.450012
       objectReference: {fileID: 0}
     - target: {fileID: 7546857901041981239, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2021,6 +2021,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7740668560534627022, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7981829850160217560, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2036,7 +2040,7 @@ PrefabInstance:
       insertIndex: 0
       addedObject: {fileID: 2011356547}
     - targetCorrespondingSourceObject: {fileID: 7304784928169897845, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
-      insertIndex: 2
+      insertIndex: 3
       addedObject: {fileID: 615057838}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
@@ -3782,6 +3786,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Options
       objectReference: {fileID: 0}
+    - target: {fileID: 4073215202141648367, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1481178157}
+    - target: {fileID: 4073215202141648367, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BackToMainMenuButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 4073215202141648367, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: BacktoMainmenu, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4179891454457098121, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 85.007996
@@ -3913,12 +3929,32 @@ PrefabInstance:
     m_TransformParent: {fileID: 1569351929}
     m_Modifications:
     - target: {fileID: 1260173356455663760, guid: f85ca4d6f24476a4eb2e4f7967169039, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1260173356455663760, guid: f85ca4d6f24476a4eb2e4f7967169039, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1260173356455663760, guid: f85ca4d6f24476a4eb2e4f7967169039, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1481178157}
     - target: {fileID: 1260173356455663760, guid: f85ca4d6f24476a4eb2e4f7967169039, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1929142980}
+    - target: {fileID: 1260173356455663760, guid: f85ca4d6f24476a4eb2e4f7967169039, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1260173356455663760, guid: f85ca4d6f24476a4eb2e4f7967169039, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: BackToMainMenuButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 1260173356455663760, guid: f85ca4d6f24476a4eb2e4f7967169039, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: BacktoMainmenu, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5586741692352007151, guid: f85ca4d6f24476a4eb2e4f7967169039, type: 3}
       propertyPath: m_Pivot.x
@@ -4011,7 +4047,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5821404066851038514, guid: f85ca4d6f24476a4eb2e4f7967169039, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1929142980}
   m_SourcePrefab: {fileID: 100100000, guid: f85ca4d6f24476a4eb2e4f7967169039, type: 3}
 --- !u!1001 &1224430057
 PrefabInstance:
@@ -4141,7 +4180,7 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7304784928169897845, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
-      insertIndex: 1
+      insertIndex: 2
       addedObject: {fileID: 66193378}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
@@ -4361,11 +4400,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7546857901041981239, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -28.450014
+      value: -28.450012
       objectReference: {fileID: 0}
     - target: {fileID: 7546857901041981239, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -430.98996
+      value: -430.99
       objectReference: {fileID: 0}
     - target: {fileID: 7546857901041981239, guid: 4e82ab79a5ea052429ebf71a98b494c3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5212,7 +5251,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8139445638735438318, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8840913800451931862, guid: 2d90538b66875df4a9e93cad8d30a7c4, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -5575,7 +5614,7 @@ PrefabInstance:
       insertIndex: 0
       addedObject: {fileID: 758577586}
     - targetCorrespondingSourceObject: {fileID: 7304784928169897845, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
-      insertIndex: 2
+      insertIndex: 3
       addedObject: {fileID: 849833253}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
@@ -5712,6 +5751,18 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5586741692352007151, guid: f85ca4d6f24476a4eb2e4f7967169039, type: 3}
   m_PrefabInstance: {fileID: 1218846877}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1929142980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390661300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1723f88fc99187d49a0bd6e9ab26c4f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1935932429 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7107036254739006786, guid: 79a5340d6c9dd2a4a81e07a94200bc9d, type: 3}
